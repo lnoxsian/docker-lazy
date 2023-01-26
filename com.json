@@ -1,0 +1,1 @@
+{"packman":["docker"],"install":["install","run"],"download":["pull"],"remove":["rm","rmi"],"stat":["images","start","stop","restart","ps","ps -a"]}
