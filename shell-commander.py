@@ -51,9 +51,9 @@ class shell_com:
     def downpack(package,args):
         allcom=comfileinit(filename)
         if len(args)==0:
-            allcoms=" ".join([allcom["packman"][0],allcom["remove"][0],package])
+            allcoms=" ".join([allcom["packman"][0],allcom["download"][0],package])
         else:
-            allcoms=" ".join([allcom["packman"][0],allcom["remove"][0],args,package])
+            allcoms=" ".join([allcom["packman"][0],allcom["download"][0],args,package])
         print(allcoms)
 
 
