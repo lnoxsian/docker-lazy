@@ -1,0 +1,3 @@
+neovim :-p -t
+alpine
+debian-split :-p -d
