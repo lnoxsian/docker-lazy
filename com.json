@@ -1,8 +1,0 @@
-{
-    "pack":["docker"],
-    "install":["install"],
-    "remove":["rm","rmi"],
-    "download":["pull"],
-    "maintain":["ps","ps -a"],
-    "image":["image","images"]
-}
