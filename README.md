@@ -36,7 +36,7 @@ if there is any issues you can contact me a i can help if i can ;)
 As stated im lazy and need something to do in life so i made this 
 small module and also the name sounded cool thats all
 to contact me 
-```bash
+```
     __                      _           
    / /___  ____  _  _______(_)___ _____ 
   / / __ \/ __ \| |/_/ ___/ / __ `/ __ \
