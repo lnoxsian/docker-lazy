@@ -1,5 +1,5 @@
 # docker-lazy
-this is a smallish python program used for automating and
+This is a smallish python program used for automating and
 maintaing docker instance as such it is build with additional 
 functions such as shellinteraction with logging and other functions
 ## why make docker lazy
@@ -23,10 +23,29 @@ import docker_lazy # or from docker_lazy import fh,shand
     * All the functions here are used for makeing and handing 
     with files and this includes logging loading of files and also for
     getting returns for all the types of data
+    **contains**
+    > _readingfile()_ -- This is used for reading files 
+    of types str,json and return list or str
+    > _writingfile()_ -- This is used for writing files 
+    of types str,list for logging and other uses
+    > _cheakfileinit()_ -- This is for initing the missing files for 
+    not encounting errors as such
 2. There is one for shell process -- class shand
     * The modules in the class is used for installing docker or 
     even getting shell commands and next is the use of regex
     to maintain the apps running in docker for fun
+    > _shelldonparse()_ -- This is for parsing the commands properly
+    to be executed by shelldon()
+    > _shelldon()_ -- This is for running the commands using subprocess
+    module
+    > _chkifinstalled()_ -- This is for cheaking if docker is installed 
+    if not installing it okay
+    > _instfromfile()_ -- This opens **package.txt** and makes the program
+    to install it in docker with the args
+    > _instfromuser()_ -- This is for userinput for installing the docke
+    apps 
+    > _logtofile()_ --This is for logging all the output from shelldon 
+    either an error or even exec 0 output
 # wanrning 
 **Pls do take this with a grain of salt**
 This is still alpha software and i will not be responsible for
