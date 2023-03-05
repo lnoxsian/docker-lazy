@@ -24,27 +24,27 @@ import docker_lazy # or from docker_lazy import fh,shand
     with files and this includes logging loading of files and also for
     getting returns for all the types of data
     **contains**
-    > _readingfile()_ -- This is used for reading files 
+    * _readingfile()_ -- This is used for reading files 
     of types str,json and return list or str
-    > _writingfile()_ -- This is used for writing files 
+    * _writingfile()_ -- This is used for writing files 
     of types str,list for logging and other uses
-    > _cheakfileinit()_ -- This is for initing the missing files for 
+    * _cheakfileinit()_ -- This is for initing the missing files for 
     not encounting errors as such
 2. There is one for shell process -- class shand
     * The modules in the class is used for installing docker or 
     even getting shell commands and next is the use of regex
     to maintain the apps running in docker for fun
-    > _shelldonparse()_ -- This is for parsing the commands properly
+    * _shelldonparse()_ -- This is for parsing the commands properly
     to be executed by shelldon()
-    > _shelldon()_ -- This is for running the commands using subprocess
+    * _shelldon()_ -- This is for running the commands using subprocess
     module
-    > _chkifinstalled()_ -- This is for cheaking if docker is installed 
+    * _chkifinstalled()_ -- This is for cheaking if docker is installed 
     if not installing it okay
-    > _instfromfile()_ -- This opens **package.txt** and makes the program
+    * _instfromfile()_ -- This opens **package.txt** and makes the program
     to install it in docker with the args
-    > _instfromuser()_ -- This is for userinput for installing the docke
+    * _instfromuser()_ -- This is for userinput for installing the docke
     apps 
-    > _logtofile()_ --This is for logging all the output from shelldon 
+    * _logtofile()_ --This is for logging all the output from shelldon 
     either an error or even exec 0 output
 # wanrning 
 **Pls do take this with a grain of salt**
