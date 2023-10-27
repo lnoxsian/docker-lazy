@@ -1,0 +1,9 @@
+{
+    "pack":["docker"],
+    "inst":["install","run"],
+    "remo":["rm","rmi"],
+    "down":["pull"],
+    "main":["ps","ps -a"],
+    "imag":["image","images"]
+    "dock":["ps"]
+}
